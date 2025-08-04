@@ -1,45 +1,27 @@
-# 📱 Sociopedia – A Mini LinkedIn Clone
+# Sociopedia
 
-Sociopedia is a full-stack social media web application built using the MERN stack. It allows users to register, log in, create and edit their profile, connect with others, and share posts. Inspired by LinkedIn, this app demonstrates essential features of a modern social network.
+Sociopedia is a LinkedIn-like social media app where users can sign up, create posts, like, comment, and explore profiles.
 
----
+## Tech Stack
+- MongoDB, Express.js, Node.js
+- React.js, Redux Toolkit
+- Material UI, JWT, Multer
 
-## 🚀 Features
+## Features
+- User authentication (JWT)
+- Profile management
+- Post creation and media upload
+- Like and comment system
+- Light/dark mode toggle
+- Responsive design
 
-- 📝 User Authentication (JWT)
-- 🧑‍🤝‍🧑 Add / Remove Friends
-- 📸 Create and View Posts
-- ❤️ Like and Interact with Posts
-- 👤 Profile Pages
-- 🌗 Light / Dark Theme Toggle
-- 📱 Fully Responsive Design (Mobile & Desktop)
+## Installation
 
----
+1. Clone the repository  
+   `git clone https://github.com/kvishv/Sociopedia.git`
 
-## 🛠️ Tech Stack
+2. Install dependencies  
+   `cd client && npm install`  
+   `cd ../server && npm install`
 
-- **Frontend:** React, Redux Toolkit, Material UI
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB (Mongoose)
-- **Authentication:** JWT, bcrypt
-
----
-
-## 📦 Installation
-
-Clone the repository and install dependencies.
-
-```bash
-# Clone the repo
-git clone https://github.com/kvishv/sociopedia.git
-cd sociopedia
-
-# Frontend setup
-cd client
-npm install
-npm run dev
-
-# Backend setup
-cd ../server
-npm install
-npm start
+3. Create a `.env` file inside the `server` folder and add the following:
